@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     @ObservedObject var locationManager = LocationManager()
 

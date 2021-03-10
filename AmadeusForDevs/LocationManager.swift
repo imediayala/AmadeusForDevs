@@ -11,6 +11,8 @@ import Combine
 
 class LocationManager: NSObject, ObservableObject {
 
+    let shoppingActivityList = ShoppingActivityList()
+    
     override init() {
         super.init()
         self.locationManager.delegate = self
@@ -96,6 +98,7 @@ extension LocationManager: CLLocationManagerDelegate {
         lookUpCurrentLocation { (place) in
             self.locationPlace = place
         }
+        shoppingActivityList.getShoppingActivities()
         print(#function, location)
     }
 
