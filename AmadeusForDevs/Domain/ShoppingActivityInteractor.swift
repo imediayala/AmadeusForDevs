@@ -7,7 +7,7 @@
 
 import Foundation
 
-typealias failureHandler = (Error) -> Void
+typealias failureHandler = (CustomErrors) -> Void
 
 
 class ShoppingActivityInteractor {
@@ -19,10 +19,8 @@ class ShoppingActivityInteractor {
     func getShoppingActivities(dto: ShoppingActivityInteractorDTO, success: @escaping successShoppingActivityHandler, failure: @escaping failureHandler) {
         shoppingActivityProvider.shoppingActivityReq(dto: ShoppingActivityProviderDTO(latitude: dto.latitude, longitude: dto.longitude, radius: dto.radius)) { (shoppingActivityEntity) in
             success(ShoppingActivity(entity: shoppingActivityEntity))
-
         } failure: { (error) in
-//            failure(error)
-
+            failure(CustomErrors(entity: error))
         }
 
     }

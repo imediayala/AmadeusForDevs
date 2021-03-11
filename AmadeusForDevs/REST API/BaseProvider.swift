@@ -12,7 +12,7 @@ import Alamofire
 public class BaseProvider {
 
     internal typealias successHandler<T> = (T) -> Void
-    public typealias failureHandler = (CustomErrorEntity) -> Void
+    typealias failureHandler = (CustomErrorsEntity) -> Void
 
 
     internal static var session: Session = {
@@ -30,7 +30,7 @@ public class BaseProvider {
     internal func request<T>(endpoint: String, method: HTTPMethod, parameters: [String: Any]? = nil, entityType: T.Type, success: @escaping successHandler<T>, failure: @escaping failureHandler) where T: Decodable {
 
         if !checkReachability() {
-            failure(CustomErrorEntity(code: -1, id: nil, description: nil, localizedDescription: ""))
+            failure(CustomErrorsEntity(errors: [CustomErrorEntity(code: 300, title: "Reachability", detail: "", status: 0)]))
             return
         }
 
@@ -50,7 +50,7 @@ public class BaseProvider {
 
         guard let statusCode = response.response?.statusCode,
               let responseValue = response.value as? [String: Any] else {
-            failure(CustomErrorEntity(code: -1, id: nil, description: nil, localizedDescription: ""))
+            failure(CustomErrorsEntity(errors: [CustomErrorEntity(code: 300, title: "Parsing", detail: "", status: 0)]))
             return
         }
 
@@ -78,7 +78,7 @@ extension BaseProvider {
         }
 
         guard let entity = try? JSONDecoder().decode(T.self, from: JSONSerialization.data(withJSONObject: response, options: .prettyPrinted)) else {
-            failure(CustomErrorEntity(code: -1, id: nil, description: nil, localizedDescription: "Parse Error"))
+            failure(CustomErrorsEntity(errors: [CustomErrorEntity(code: 300, title: "Parsing", detail: "", status: 0)]))
             return
         }
 
@@ -90,13 +90,11 @@ extension BaseProvider {
 extension BaseProvider {
 
     internal func handlerFailureResponse(statusCode: Int, response: Any, urlString: String?, failure: @escaping failureHandler) {
-
-        guard var entity = try? JSONDecoder().decode(CustomErrorEntity.self, from: JSONSerialization.data(withJSONObject: response, options: .prettyPrinted)) else {
-            failure(CustomErrorEntity(code: -1, id: nil, description: nil, localizedDescription: ""))
+        
+        guard let entity = try? JSONDecoder().decode(CustomErrorsEntity.self, from: JSONSerialization.data(withJSONObject: response, options: .prettyPrinted)) else {
+            failure(CustomErrorsEntity(errors: [CustomErrorEntity(code: 300, title: "Parsing", detail: "", status: 0)]))
             return
         }
-
-        entity.code = statusCode
         failure(entity)
     }
 }

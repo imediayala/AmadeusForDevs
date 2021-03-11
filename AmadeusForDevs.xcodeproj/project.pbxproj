@@ -10,7 +10,7 @@
 		C40FBCA425F9410C00C14712 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C40FBCA325F9410C00C14712 /* Alamofire */; };
 		C40FBCA825F9439100C14712 /* BaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCA725F9439100C14712 /* BaseProvider.swift */; };
 		C40FBCAB25F9444A00C14712 /* DataConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCAA25F9444A00C14712 /* DataConstant.swift */; };
-		C40FBCAE25F946FC00C14712 /* CustomErrorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCAD25F946FC00C14712 /* CustomErrorEntity.swift */; };
+		C40FBCAE25F946FC00C14712 /* CustomErrorsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCAD25F946FC00C14712 /* CustomErrorsEntity.swift */; };
 		C40FBCB425F948E800C14712 /* ShoppingActivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCB325F948E800C14712 /* ShoppingActivityProvider.swift */; };
 		C40FBCB925F94D1800C14712 /* ShoppingActivityInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCB825F94D1800C14712 /* ShoppingActivityInteractor.swift */; };
 		C40FBCC025F9585900C14712 /* ShoppingActivityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCBF25F9585900C14712 /* ShoppingActivityRow.swift */; };
@@ -24,12 +24,13 @@
 		C47E037425F8FD8000CCFDEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47E037325F8FD8000CCFDEE /* Preview Assets.xcassets */; };
 		C47E038025F9123300CCFDEE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E037F25F9123300CCFDEE /* LocationManager.swift */; };
 		C47E038825F9262100CCFDEE /* ShoppingActivityEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E038725F9262100CCFDEE /* ShoppingActivityEntity.swift */; };
+		C4FD1B7125FA3B6E003C297F /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FD1B7025FA3B6E003C297F /* CustomErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C40FBCA725F9439100C14712 /* BaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProvider.swift; sourceTree = "<group>"; };
 		C40FBCAA25F9444A00C14712 /* DataConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConstant.swift; sourceTree = "<group>"; };
-		C40FBCAD25F946FC00C14712 /* CustomErrorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrorEntity.swift; sourceTree = "<group>"; };
+		C40FBCAD25F946FC00C14712 /* CustomErrorsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrorsEntity.swift; sourceTree = "<group>"; };
 		C40FBCB325F948E800C14712 /* ShoppingActivityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingActivityProvider.swift; sourceTree = "<group>"; };
 		C40FBCB825F94D1800C14712 /* ShoppingActivityInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingActivityInteractor.swift; sourceTree = "<group>"; };
 		C40FBCBF25F9585900C14712 /* ShoppingActivityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingActivityRow.swift; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		C47E037525F8FD8000CCFDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C47E037F25F9123300CCFDEE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		C47E038725F9262100CCFDEE /* ShoppingActivityEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingActivityEntity.swift; sourceTree = "<group>"; };
+		C4FD1B7025FA3B6E003C297F /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +91,10 @@
 			children = (
 				C47E036C25F8FD7A00CCFDEE /* AmadeusForDevsApp.swift */,
 				C47E036E25F8FD7A00CCFDEE /* ContentView.swift */,
-				C40FBCB825F94D1800C14712 /* ShoppingActivityInteractor.swift */,
 				C40FBCBF25F9585900C14712 /* ShoppingActivityRow.swift */,
 				C437AE2D25F986BD00E7B9E9 /* ShoppingActivitiesList.swift */,
 				C47E037F25F9123300CCFDEE /* LocationManager.swift */,
-				C40FBCC225F9588E00C14712 /* ShoppingActivity.swift */,
+				C4FD1B6F25FA3B2B003C297F /* Domain */,
 				C47E038A25F928E200CCFDEE /* REST API */,
 				C47E037025F8FD8000CCFDEE /* Assets.xcassets */,
 				C437AE2925F97E7800E7B9E9 /* Mock */,
@@ -111,24 +112,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C47E038625F9260600CCFDEE /* Model Entities */ = {
+		C47E038625F9260600CCFDEE /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				C40FBCB325F948E800C14712 /* ShoppingActivityProvider.swift */,
+				C40FBCAD25F946FC00C14712 /* CustomErrorsEntity.swift */,
 				C47E038725F9262100CCFDEE /* ShoppingActivityEntity.swift */,
 			);
-			path = "Model Entities";
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C47E038A25F928E200CCFDEE /* REST API */ = {
 			isa = PBXGroup;
 			children = (
 				C40FBCA725F9439100C14712 /* BaseProvider.swift */,
-				C40FBCAD25F946FC00C14712 /* CustomErrorEntity.swift */,
 				C40FBCAA25F9444A00C14712 /* DataConstant.swift */,
-				C47E038625F9260600CCFDEE /* Model Entities */,
+				C47E038625F9260600CCFDEE /* Model */,
 			);
 			path = "REST API";
+			sourceTree = "<group>";
+		};
+		C4FD1B6F25FA3B2B003C297F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				C40FBCB825F94D1800C14712 /* ShoppingActivityInteractor.swift */,
+				C40FBCC225F9588E00C14712 /* ShoppingActivity.swift */,
+				C4FD1B7025FA3B6E003C297F /* CustomErrors.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,13 +218,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40FBCAE25F946FC00C14712 /* CustomErrorEntity.swift in Sources */,
+				C40FBCAE25F946FC00C14712 /* CustomErrorsEntity.swift in Sources */,
 				C40FBCC025F9585900C14712 /* ShoppingActivityRow.swift in Sources */,
 				C437AE2B25F97EC700E7B9E9 /* ActivitiesMock.swift in Sources */,
 				C47E036F25F8FD7A00CCFDEE /* ContentView.swift in Sources */,
 				C40FBCB925F94D1800C14712 /* ShoppingActivityInteractor.swift in Sources */,
 				C47E038825F9262100CCFDEE /* ShoppingActivityEntity.swift in Sources */,
 				C47E036D25F8FD7A00CCFDEE /* AmadeusForDevsApp.swift in Sources */,
+				C4FD1B7125FA3B6E003C297F /* CustomErrors.swift in Sources */,
 				C47E038025F9123300CCFDEE /* LocationManager.swift in Sources */,
 				C40FBCA825F9439100C14712 /* BaseProvider.swift in Sources */,
 				C40FBCB425F948E800C14712 /* ShoppingActivityProvider.swift in Sources */,
