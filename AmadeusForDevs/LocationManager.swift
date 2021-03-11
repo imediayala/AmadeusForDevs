@@ -11,7 +11,8 @@ import Combine
 
 class LocationManager: NSObject, ObservableObject {
 
-    let shoppingActivityList = ShoppingActivityList()
+    let shoppingActivityInteractor = ShoppingActivityInteractor()
+//    var activities = [ShoppingSingleActivity]()
     
     override init() {
         super.init()
@@ -34,6 +35,12 @@ class LocationManager: NSObject, ObservableObject {
     }
     
     @Published var locationPlace: CLPlacemark? {
+        willSet {
+            objectWillChange.send()
+        }
+    }
+    
+    @Published var activities: [ShoppingSingleActivity]? {
         willSet {
             objectWillChange.send()
         }
@@ -98,7 +105,14 @@ extension LocationManager: CLLocationManagerDelegate {
         lookUpCurrentLocation { (place) in
             self.locationPlace = place
         }
-        shoppingActivityList.getShoppingActivities()
+        
+        shoppingActivityInteractor.getShoppingActivities(dto: ShoppingActivityInteractorDTO(latitude: "\(location.coordinate.latitude )" , longitude: "\(location.coordinate.longitude )", radius: "1")) { (activities) in
+            print(activities)
+            self.activities = activities.shoppingActivities
+        } failure: { (error) in
+            print(error)
+        }
+
         print(#function, location)
     }
 

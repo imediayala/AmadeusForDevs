@@ -7,38 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0E6D8D3A-F9B1-42FB-A086-9536927C89A9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AmadeusForDevs/LocationManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "locationManager(_:didUpdateLocations:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "94B2AFA7-CF33-406A-9C29-BD85D774893D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AmadeusForDevs/REST API/Model Entities/ShoppingActivityProvider.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "shoppingActivityReq(dto:success:failure:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "865A5E80-7552-4E5F-B0EB-FE70D2D24929"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -46,42 +14,10 @@
             filePath = "AmadeusForDevs/ShoppingActivityList.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "getShoppingActivities()"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getShoppingActivities(success:failure:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "865A5E80-7552-4E5F-B0EB-FE70D2D24929 - ed484df088d5b506"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AmadeusForDevs.ShoppingActivityList.getShoppingActivities() -&gt; ()"
-                  moduleName = "AmadeusForDevs"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/danielayala/Development/Experiment%20Lab/AmadeusForDevs/AmadeusForDevs/ShoppingActivityList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  uuid = "865A5E80-7552-4E5F-B0EB-FE70D2D24929 - 3b41b543a3d271fd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (AmadeusForDevs.ShoppingActivityEntity) -&gt; () in AmadeusForDevs.ShoppingActivityList.getShoppingActivities() -&gt; ()"
-                  moduleName = "AmadeusForDevs"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/danielayala/Development/Experiment%20Lab/AmadeusForDevs/AmadeusForDevs/ShoppingActivityList.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "44">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -94,9 +30,9 @@
             filePath = "AmadeusForDevs/ShoppingActivityList.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "getShoppingActivities()"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getShoppingActivities(success:failure:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -110,9 +46,9 @@
             filePath = "AmadeusForDevs/ShoppingActivityList.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "getShoppingActivities()"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getShoppingActivities(success:failure:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -210,6 +146,198 @@
             endingLineNumber = "80"
             landmarkName = "handlerSuccessResponse(response:entityType:success:failure:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF7DCCEA-F605-47C2-AD15-A931C25858B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmadeusForDevs/Mock/ActivitiesMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "load(_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1666702A-7ED7-4E19-94B0-7FC1B8F5E467"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmadeusForDevs/Mock/ActivitiesMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "load(_:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C84A87D7-824D-4486-8BED-85C753306B2E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmadeusForDevs/LocationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9170F505-5551-4C1A-BA8D-93FB365B83CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmadeusForDevs/LocationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FF1BCF8-2EDD-4170-8F16-AF724431C79A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmadeusForDevs/LocationManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2FF1BCF8-2EDD-4170-8F16-AF724431C79A - 970b48ee8dcf119f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmadeusForDevs.LocationManager.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "AmadeusForDevs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielayala/Development/Experiment%20Lab/AmadeusForDevs/AmadeusForDevs/LocationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "2FF1BCF8-2EDD-4170-8F16-AF724431C79A - 4c04117bd3f9707b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (AmadeusForDevs.ShoppingActivity) -&gt; () in AmadeusForDevs.LocationManager.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "AmadeusForDevs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielayala/Development/Experiment%20Lab/AmadeusForDevs/AmadeusForDevs/LocationManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF2B0CBF-7823-44FA-AA59-956412C7F902"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmadeusForDevs/ShoppingActivityInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getShoppingActivities(dto:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5BEBEEF-7D77-4C6B-A861-85190DF07167"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmadeusForDevs/ShoppingActivityInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getShoppingActivities(dto:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AC4C0F5-E926-4CCA-AE74-EBC25B02A23A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AmadeusForDevs/ShoppingActivityInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "getShoppingActivities(dto:success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4AC4C0F5-E926-4CCA-AE74-EBC25B02A23A - 39bdaf91d6fa0f45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AmadeusForDevs.ShoppingActivityInteractor.getShoppingActivities(dto: AmadeusForDevs.ShoppingActivityInteractorDTO, success: (AmadeusForDevs.ShoppingActivity) -&gt; (), failure: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "AmadeusForDevs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielayala/Development/Experiment%20Lab/AmadeusForDevs/AmadeusForDevs/ShoppingActivityInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "4AC4C0F5-E926-4CCA-AE74-EBC25B02A23A - 8cce4ef7a2a142de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AmadeusForDevs.ShoppingActivityEntity) -&gt; () in AmadeusForDevs.ShoppingActivityInteractor.getShoppingActivities(dto: AmadeusForDevs.ShoppingActivityInteractorDTO, success: (AmadeusForDevs.ShoppingActivity) -&gt; (), failure: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "AmadeusForDevs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielayala/Development/Experiment%20Lab/AmadeusForDevs/AmadeusForDevs/ShoppingActivityInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

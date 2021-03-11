@@ -16,13 +16,14 @@ struct ShoppingSingleActivityEntity: Decodable {
     let name: String?
     let shortDescription: String?
     let rating: String?
-    let price: Price?
+    let price: PriceEntity?
     let pictures: [String]?
     let bookingLink: String?
+    let id: String
     
 }
 
-struct Price: Decodable {
+struct PriceEntity: Decodable {
     let currencyCode: String?
     let ammount: String?
 }

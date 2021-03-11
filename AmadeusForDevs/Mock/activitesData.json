@@ -1,0 +1,502 @@
+[
+        {
+            "id": "23664",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/23664",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Skip-the-line tickets to the Reina Sofía Museum",
+            "shortDescription": "Book your tickets for Madrid's Reina Sofía museum for a great day of nineteenth and twentiethcentury art appreciation.",
+            "geoCode": {
+                "latitude": "40.407927",
+                "longitude": "-3.694447"
+            },
+            "rating": "4.400000",
+            "pictures": [
+                "https://images.musement.com/default/0001/25/madrid-reina-sofia-museum-tickets_header-24162.jpeg?w=500"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/WYIPiqNm?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "10.00"
+            }
+        },
+        {
+            "id": "23786",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/23786",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Flamenco Show at Corral de la Morería in Madrid",
+            "shortDescription": "Feel the feverish heat of Spain’s traditional dance with a flamenco show at one of the country’s most prestigious ‘tablaos’ (flamenco venues). Choose the show time that best suits your schedule, then make your own way into the heart of Madrid Old Town to enjoy a night of passionate flamenco. Depending on the option selected, sip on a welcome drink or sink your teeth into three or four delectable courses of authentic Spanish cuisine. Then, grow giddy as you watch an electrifying performance from some of the country’s leading dancers.",
+            "geoCode": {
+                "latitude": "40.412737",
+                "longitude": "-3.714120"
+            },
+            "rating": "4.500000",
+            "pictures": [
+                "https://media.tacdn.com/media/attractions-splice-spp-674x446/09/46/ed/4a.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/OqzTbgdP?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "50.00"
+            }
+        },
+        {
+            "id": "23791",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/23791",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Madrid City Tour Hop-On Hop-Off",
+            "shortDescription": "Discover Madrid’s highlights aboard an open-top double-decker hop-on hop-off bus. Step aboard and watch the passing sights on both the two interconnecting routes. Admire the spectacular Royal Palace, hop off to visit the Prado museum, and see the mighty Bernabéu stadium. Choose a 1-day or 2-day ticket and hop on and off at any of the 37 stops to create your own sightseeing itinerary.",
+            "geoCode": {
+                "latitude": "40.415556",
+                "longitude": "-3.714444"
+            },
+            "rating": "4.300000",
+            "pictures": [
+                "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/3b/bd/db.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/ZQ3GrqJr?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "22.00"
+            }
+        },
+        {
+            "id": "23825",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/23825",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Skip the Line: Prado Museum Tour in Madrid",
+            "shortDescription": "Explore Madrid’s Prado Museum with an art expert guide after skipping the long entrance lines with your priority-access ticket! As Spain’s national museum, the Prado’s collection is staggering in size and a visit here on your own can be overwhelming. Let your guide show off its highlights, like Diego Velazquez’s ‘Las Meninas’ and El Greco’s ‘The Annunciation,’ while learning little-known facts about the masterpieces’ histories. This tour operates with a maximum of 20 people, ensuring you’ll enjoy a small-group experience your expert guide",
+            "geoCode": {
+                "latitude": "40.413812",
+                "longitude": "-3.692524"
+            },
+            "rating": "3.700000",
+            "pictures": [
+                "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6f/5a/5b.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/1kcbWYcR?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "38.00"
+            }
+        },
+        {
+            "id": "23839",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/23839",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Madrid Segway Tour",
+            "shortDescription": "Zip through the streets of Madrid on a revolutionary Segway! Not only is it easy but, loads of fun as well. You will see the Royal Palace, the Almudena, Templo de Debod and the Mayor and de Espana Plaza's on this unique tour. Numbers are limited to 10 people on this small-group tour, ensuring you'll receive personalized attention from your guide.",
+            "geoCode": {
+                "latitude": "40.415556",
+                "longitude": "-3.714444"
+            },
+            "rating": "4.700000",
+            "pictures": [
+                "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6f/59/c5.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/NvnHKgLR?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "25.00"
+            }
+        },
+        {
+            "id": "109822",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/109822",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Madrid City Tour (Hop-On Hop-Off Bus Tour)",
+            "shortDescription": "Hop on board this open-top double-decker bus for a comprehensive sightseeing tour of Madrid. On these 2 comprehensive routes you will see everything from historical sites like the Royal Palace to modern skyscrapers, with the option of a 1 or 2-day pass.",
+            "geoCode": {
+                "latitude": "40.413782",
+                "longitude": "-3.692127"
+            },
+            "rating": "4.313300",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-214145-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/MMrGaMFlj6?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "22.00"
+            }
+        },
+        {
+            "id": "109829",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/109829",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "From Madrid: Avila with Walls & Segovia Full-Day Tour",
+            "shortDescription": "Get up close and personal with Spain and its rich history on a day tour to Avila and Segovia. Relax as you are taken to visit the birthplace of Santa Teresa de Jesus in Avila. Then see the Aqueduct of Segovia and stop off at the stunning castle, Alcázar.",
+            "geoCode": {
+                "latitude": "40.416785",
+                "longitude": "-3.712212"
+            },
+            "rating": "4.489600",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-233356-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/F9XqYvdGpd?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "79.00"
+            }
+        },
+        {
+            "id": "109835",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/109835",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Madrid Tapas Experience Walking Tour",
+            "shortDescription": "Discover the tapas traditions of Spain on a 2-hour foodie walking tour of Madrid. Go on a culinary journey through the regions of Spain, learning the origins of tapas and how each tapa is made. Experience the food culture of Madrid like a local.",
+            "geoCode": {
+                "latitude": "40.415531",
+                "longitude": "-3.707360"
+            },
+            "rating": "4.299200",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-2208747-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/f0Wv951c0I?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "20.00"
+            }
+        },
+        {
+            "id": "109863",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/109863",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Scenic Madrid City Cycling Tour",
+            "shortDescription": "See Madrid's main sights on a 2 or 3-hour guided bike tour. Choose from a regular or private tour where you will see the Templo de Debod, the Cathedral of La Almudena, the Plaza de la Villa, the Plaza Mayor, Retiro Park, Plaza de España, and much more.",
+            "geoCode": {
+                "latitude": "40.424887",
+                "longitude": "-3.715092"
+            },
+            "rating": "4.793800",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-231571-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/rrBdDyPzUj?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "20.00"
+            }
+        },
+        {
+            "id": "109875",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/109875",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Museo Nacional Thyssen-Bornemisza Tickets",
+            "shortDescription": "Enjoy entry to the permanent exhibition of the Museo Nacional Thyssen-Bornemisza and its temporary exhibitions.",
+            "geoCode": {
+                "latitude": "40.416040",
+                "longitude": "-3.694942"
+            },
+            "rating": "4.708600",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-442293-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/caGNVHSyvx?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "13.00"
+            }
+        },
+        {
+            "id": "110047",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/110047",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Madrid: Live Flamenco Show and Food and Drinks Options",
+            "shortDescription": "Feel the passion of flamenco music and dance at a legendary tablao in Madrid. Watch a unique show in a venue inspired by the Bermejas towers of Granada's Alhambra. Choose from a variety of dining options to upgrade your experience.",
+            "geoCode": {
+                "latitude": "40.419793",
+                "longitude": "-3.704242"
+            },
+            "rating": "4.453200",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-698816-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/Hf1IalJnOC?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "35.00"
+            }
+        },
+        {
+            "id": "110057",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/110057",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Madrid: Flamenco Show at Tablao Las Carboneras",
+            "shortDescription": "Enjoy a flamenco show at a restaurant that combines cutting-edge style with the best of flamenco. Las Carboneras has come to be regarded as one of the best tablaos in Madrid. Choose either the show ticket or show plus dinner option.",
+            "geoCode": {
+                "latitude": "40.414690",
+                "longitude": "-3.709225"
+            },
+            "rating": "4.598800",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-494882-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/QqBz7B5VpQ?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "39.00"
+            }
+        },
+        {
+            "id": "110066",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/110066",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Madrid: City Center and Retiro Park 1.5-Hour Segway Tour",
+            "shortDescription": "Begin your Segway tour in the city center. Discover El Retiro Park, Madrid's most beautiful park. See the most important sights and monuments of Madrid.",
+            "geoCode": {
+                "latitude": "40.416311",
+                "longitude": "-3.709929"
+            },
+            "rating": "4.883000",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-2056427-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/mArXbFrNhO?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "18.00"
+            }
+        },
+        {
+            "id": "110068",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/110068",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Madrid Royal Palace 90-Minute Guided Tour",
+            "shortDescription": "Enjoy a 1.5-hour tour with a local guide through the Royal Palace Madrid, the official residence of the kings of Spain. Marvel at the main staircase by Sabatini, the Throne Room, the Hall of Alabarderos, the Royal Chapel, and more.",
+            "geoCode": {
+                "latitude": "40.418173",
+                "longitude": "-3.709543"
+            },
+            "rating": "4.174900",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-482428-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/0xps01I2Wm?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "25.00"
+            }
+        },
+        {
+            "id": "141707",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/141707",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Skip the Line Tickets to Prado Museum",
+            "shortDescription": "Why You Shouldn't Miss This\nThe Prado Museum is a landmark of huge national and global importance. Occupying a 18th-century Neo-classical building, the Prado Museum is home to over 20,000 works of art that include around 7,500 paintings, 8,000 drawings, 4,800 prints, and 1,000 sculptures and other works of art and historical documents. Some of the greats whose works adorn the Prado walls are Francisco Goya, El Greco, Diego Velazquez, Hieronymus Bosch, Peter Paul Rubens and Titian. Your Experience\nOn the day you would like to visit the museum, carry a printed copy of the ticket and head to the museum. Bypass the arduous ticketing queue and, after a brief security check, you are free to roam Prado's galleries.\nThe exhibits on display at the Prado Museum are spread over three levels - basement, first and second. You can explore the museum's galleries for as long as you like. Some of the most important and popular artworks that you must not miss are \"Las Meninas\", \"Crucifixion\" and \"The Tapestry Weavers\" by Diego Velazquez; Goya's \"Maja\" series; \"The Cardinal\" by Raphael; the crown jewels; \"Emperor Carlos V on Horseback\" by Titian; \"David Victorious over Goliath\" by Caravaggio and many more.",
+            "geoCode": {
+                "latitude": "40.413784",
+                "longitude": "-3.692127"
+            },
+            "rating": "4.800000",
+            "pictures": [
+                "https://cdn-imgix.headout.com/tour/5543/TOUR-IMAGE/8f779e77-3275-4151-90e6-8a089a42b79b-3586-madrid-prado-museum-01.jpg?w=500"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/X7sRgktJS9?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "15.00"
+            }
+        },
+        {
+            "id": "141881",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/141881",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Madrid: Skip-the-Line Guided Tour of the Royal Palace",
+            "shortDescription": "Journey through the history of the Royal Palace of Madrid on an early exclusive access tour and enjoy the typical Spanish Cuisine with a tapas tasting in a famous bar near the Royal Palace (if option selected).",
+            "geoCode": {
+                "latitude": "40.418154",
+                "longitude": "-3.709348"
+            },
+            "rating": "4.582800",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-2420375-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/JU5JkxVnjt?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "30.00"
+            }
+        },
+        {
+            "id": "161345",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/161345",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Fast Track Tickets To Thyssen-Bornemisza Museum",
+            "shortDescription": "WHY YOU SHOULDN’T MISS THIS\nThe Thyssen is the perfect place to indulge in artistic brilliance. It houses work from some of the most renowned artists in Europe from the 13th to the 20th century. Being the second largest private collection in the world, it consists of movements not represented in state-owned collections, such as Impressionism, Fauvism, German Expressionism and the experimental avant-garde movements of the early 20th century. With 70 paintings loaned from museums and private collections, some have never been previously exhibited in public. The museum also has a collection of North American paintings on display. Impressionist and Post Impressionist work from artists like Claude Monet, Auguste Renoir, Edgar Degas, Camille Pissarro, Alfred Sisley, Vincent van Gogh, to name a few, also add immense artistic value to the museum.\nWith over thousands of awe inspiring paintings to marvel at, the Thyssen is known to have one of the most overwhelmingly large collections of art that is bound to leave you speechless. With the Prado and Reina Sofia in the same neighbourhood, it is bound to give you quite the artistic exploration with loads to do and several exhibits to see even after you cover the Thyssen. From 20th century works by Picasso, Braque, Juan Gris to earlier Renaissance artists, this museum is more than just a must-see!\nYOUR EXPERIENCE\nOnce you book your tickets, you shall receive an email that shall contain your entry passes to the temporary and permanent exhibits of the museum. All you have to do is show it at the entrance on your mobile and you shall gain access to the museum without waiting in line! The permanent and temporary exhibits are at Exhibit A and B respectively. The temporary exhibits have limited entry and visitors are admitted at the assigned time every 15 minutes.\nIn terms of the permanent exhibit, there are several notable works of Dutch, Italian and Flemish painters, along with leading works by leading Renaissance, Baroque and Rococo painters, including Antonello da Messina (Portrait of a Man), Fra Bartolomeo, Giulio Romano, Giovanni Bellini, Titian, Tintoretto, Veronese, Van Dyck, to name a few. The permanent exhibit is spread across 3 storeys – the ground, first and second floors. The second floor also features medieval art from the 13th and 14th century. The first floor is home to some masterpieces by Van Gogh, Monet, Pissarro, Picasso, Matisse, Edward Hopper and Juan Gris, to name a few. Finally, the ground floor contains works from the second half of the 20th century. Going through the different floors of the collection can feel much like travelling through the different eras of artistic expression, making the Thyssen the perfect getaway for art lovers and aficionados alike!",
+            "geoCode": {
+                "latitude": "40.416039",
+                "longitude": "-3.694924"
+            },
+            "rating": "4.700000",
+            "pictures": [
+                "https://cdn-imgix.headout.com/tour/14588/TOUR-IMAGE/74bfa809-9034-4a84-8648-56b5fd5950b8-7985-madrid-thyssen-bornesmisza-museum-01.jpg?w=500"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/K3zHgReeSb?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "13.00"
+            }
+        },
+        {
+            "id": "161346",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/161346",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Skip the Line Tickets to Reina Sofía Arts Center",
+            "shortDescription": "Why You Shouldn’t Miss This\nThe Reina Sofia Art Centre is home to the greatest Spanish artists from the 20th century which attracts more than 3.5 million visitors annually. Ranked in the top 15 most visited art museums around the world, the mixture of national and international exhibitions make it one of the world’s largest museums for modern and contemporary art.\nFeaturing 1,653 paintings and 707 sculptures along with a horde of paperworks, graphic art and photographs, the museum is most famous for the ‘Guernica’. This prolific piece by Pablo Picasso symbolises Spain’s transition to a democracy and is a universally recognized icon for the same. Your Experience\nThe Reina Sofia Museum is housed inside an antique hospital which has been converted into an art museum. With lush gardens and vaulted hallways, walking through this artwork abode is a delight in itself and that statement doesn’t even account for the artworks inside. This premier modern art gallery provides excellent views of the plaza and buildings below which are truly breathtaking.\nThe artwork, primarily by Spanish artists, also features works from international artists such as Francis Bacon, Pierre Bonnard, Max Ernst and Yves Tanguy to name a few. However, what it is truly famous for is the works of the great Spanish artists. With more than 20 Dali pieces, a room dedicated to Joan Miro’s paintings and arguably the most famous painting in Spain ‘Guernica’, this modern art museum is a wonderland of art. You can also access the library which specializes in art and has a collection of over 100,000 books, 3,500 audio recordings and over 1,000 videos",
+            "geoCode": {
+                "latitude": "40.407913",
+                "longitude": "-3.694557"
+            },
+            "rating": "4.800000",
+            "pictures": [
+                "https://cdn-imgix.headout.com/tour/14589/TOUR-IMAGE/fa2ae78e-bb5b-441d-888f-bbbf6102bd3c-7986-madrid-skip-the-line-tickets-to-reina-sofia-arts-center-01.jpg?w=500"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/ooyT5vMQEU?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "9.00"
+            }
+        },
+        {
+            "id": "269081",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/269081",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Madrid: Toledo Full Day Tour with Free Madrid City Tour",
+            "shortDescription": "On this day tour, visit the outstanding city of Toledo. Along with a travel assistant, get to know the city of 3 civilizations. Enjoy a panoramic tour, 6 hours of free time to explore the city, and get a free Madrid City Tour.",
+            "geoCode": {
+                "latitude": "40.422427",
+                "longitude": "-3.709611"
+            },
+            "rating": "4.196700",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-1459376-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/Y9AmxNM5nX?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "23.00"
+            }
+        },
+        {
+            "id": "334203",
+            "type": "activity",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/334203",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Madrid: Royal Palace Skip-the-Line Guided Tour",
+            "shortDescription": "Enjoy an early access guided tour of the Royal Place in Madrid with a walk from Plaza de Isabel II. Visit the Private Royal Apartments and Royal Gardens.",
+            "geoCode": {
+                "latitude": "40.418154",
+                "longitude": "-3.709348"
+            },
+            "rating": "4.842900",
+            "pictures": [
+                "https://cdn.getyourguide.com/img/tour_img-2151267-145.jpg"
+            ],
+            "bookingLink": "https://b2c.mla.cloud/c/T9g1psj4O1?c=2WxbgL36",
+            "price": {
+                "currencyCode": "EUR",
+                "amount": "34.00"
+            }
+        }
+    ]

@@ -12,7 +12,12 @@
 		C40FBCAB25F9444A00C14712 /* DataConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCAA25F9444A00C14712 /* DataConstant.swift */; };
 		C40FBCAE25F946FC00C14712 /* CustomErrorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCAD25F946FC00C14712 /* CustomErrorEntity.swift */; };
 		C40FBCB425F948E800C14712 /* ShoppingActivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCB325F948E800C14712 /* ShoppingActivityProvider.swift */; };
-		C40FBCB925F94D1800C14712 /* ShoppingActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCB825F94D1800C14712 /* ShoppingActivityList.swift */; };
+		C40FBCB925F94D1800C14712 /* ShoppingActivityInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCB825F94D1800C14712 /* ShoppingActivityInteractor.swift */; };
+		C40FBCC025F9585900C14712 /* ShoppingActivityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCBF25F9585900C14712 /* ShoppingActivityRow.swift */; };
+		C40FBCC325F9588E00C14712 /* ShoppingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40FBCC225F9588E00C14712 /* ShoppingActivity.swift */; };
+		C437AE2725F97E1800E7B9E9 /* activitesData.json in Resources */ = {isa = PBXBuildFile; fileRef = C437AE2625F97E1800E7B9E9 /* activitesData.json */; };
+		C437AE2B25F97EC700E7B9E9 /* ActivitiesMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437AE2A25F97EC700E7B9E9 /* ActivitiesMock.swift */; };
+		C437AE2E25F986BD00E7B9E9 /* ShoppingActivitiesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C437AE2D25F986BD00E7B9E9 /* ShoppingActivitiesList.swift */; };
 		C47E036D25F8FD7A00CCFDEE /* AmadeusForDevsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E036C25F8FD7A00CCFDEE /* AmadeusForDevsApp.swift */; };
 		C47E036F25F8FD7A00CCFDEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E036E25F8FD7A00CCFDEE /* ContentView.swift */; };
 		C47E037125F8FD8000CCFDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47E037025F8FD8000CCFDEE /* Assets.xcassets */; };
@@ -26,7 +31,12 @@
 		C40FBCAA25F9444A00C14712 /* DataConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConstant.swift; sourceTree = "<group>"; };
 		C40FBCAD25F946FC00C14712 /* CustomErrorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrorEntity.swift; sourceTree = "<group>"; };
 		C40FBCB325F948E800C14712 /* ShoppingActivityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingActivityProvider.swift; sourceTree = "<group>"; };
-		C40FBCB825F94D1800C14712 /* ShoppingActivityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingActivityList.swift; sourceTree = "<group>"; };
+		C40FBCB825F94D1800C14712 /* ShoppingActivityInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingActivityInteractor.swift; sourceTree = "<group>"; };
+		C40FBCBF25F9585900C14712 /* ShoppingActivityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingActivityRow.swift; sourceTree = "<group>"; };
+		C40FBCC225F9588E00C14712 /* ShoppingActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingActivity.swift; sourceTree = "<group>"; };
+		C437AE2625F97E1800E7B9E9 /* activitesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = activitesData.json; sourceTree = "<group>"; };
+		C437AE2A25F97EC700E7B9E9 /* ActivitiesMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesMock.swift; sourceTree = "<group>"; };
+		C437AE2D25F986BD00E7B9E9 /* ShoppingActivitiesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingActivitiesList.swift; sourceTree = "<group>"; };
 		C47E036925F8FD7A00CCFDEE /* AmadeusForDevs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmadeusForDevs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47E036C25F8FD7A00CCFDEE /* AmadeusForDevsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmadeusForDevsApp.swift; sourceTree = "<group>"; };
 		C47E036E25F8FD7A00CCFDEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C437AE2925F97E7800E7B9E9 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				C437AE2625F97E1800E7B9E9 /* activitesData.json */,
+				C437AE2A25F97EC700E7B9E9 /* ActivitiesMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		C47E036025F8FD7A00CCFDEE = {
 			isa = PBXGroup;
 			children = (
@@ -70,10 +89,14 @@
 			children = (
 				C47E036C25F8FD7A00CCFDEE /* AmadeusForDevsApp.swift */,
 				C47E036E25F8FD7A00CCFDEE /* ContentView.swift */,
-				C40FBCB825F94D1800C14712 /* ShoppingActivityList.swift */,
+				C40FBCB825F94D1800C14712 /* ShoppingActivityInteractor.swift */,
+				C40FBCBF25F9585900C14712 /* ShoppingActivityRow.swift */,
+				C437AE2D25F986BD00E7B9E9 /* ShoppingActivitiesList.swift */,
 				C47E037F25F9123300CCFDEE /* LocationManager.swift */,
+				C40FBCC225F9588E00C14712 /* ShoppingActivity.swift */,
 				C47E038A25F928E200CCFDEE /* REST API */,
 				C47E037025F8FD8000CCFDEE /* Assets.xcassets */,
+				C437AE2925F97E7800E7B9E9 /* Mock */,
 				C47E037525F8FD8000CCFDEE /* Info.plist */,
 				C47E037225F8FD8000CCFDEE /* Preview Content */,
 			);
@@ -173,6 +196,7 @@
 			files = (
 				C47E037425F8FD8000CCFDEE /* Preview Assets.xcassets in Resources */,
 				C47E037125F8FD8000CCFDEE /* Assets.xcassets in Resources */,
+				C437AE2725F97E1800E7B9E9 /* activitesData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,14 +208,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C40FBCAE25F946FC00C14712 /* CustomErrorEntity.swift in Sources */,
+				C40FBCC025F9585900C14712 /* ShoppingActivityRow.swift in Sources */,
+				C437AE2B25F97EC700E7B9E9 /* ActivitiesMock.swift in Sources */,
 				C47E036F25F8FD7A00CCFDEE /* ContentView.swift in Sources */,
-				C40FBCB925F94D1800C14712 /* ShoppingActivityList.swift in Sources */,
+				C40FBCB925F94D1800C14712 /* ShoppingActivityInteractor.swift in Sources */,
 				C47E038825F9262100CCFDEE /* ShoppingActivityEntity.swift in Sources */,
 				C47E036D25F8FD7A00CCFDEE /* AmadeusForDevsApp.swift in Sources */,
 				C47E038025F9123300CCFDEE /* LocationManager.swift in Sources */,
 				C40FBCA825F9439100C14712 /* BaseProvider.swift in Sources */,
 				C40FBCB425F948E800C14712 /* ShoppingActivityProvider.swift in Sources */,
 				C40FBCAB25F9444A00C14712 /* DataConstant.swift in Sources */,
+				C437AE2E25F986BD00E7B9E9 /* ShoppingActivitiesList.swift in Sources */,
+				C40FBCC325F9588E00C14712 /* ShoppingActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
