@@ -9,6 +9,6 @@ struct DataConstant {
 
     // Host
     static let host: String = "https://test.api.amadeus.com/v1"
-    static let headers = ["authorization": "Bearer HMtb6otC2kDceBuoQvd5o2muOqsk"]
+    static let headers = ["authorization": "Bearer CTo1drZbI6RqUXetEGbvmZbPyQGE"]
 
 }
